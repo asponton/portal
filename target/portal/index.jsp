@@ -35,19 +35,19 @@
         <div class="logo animate0 bounceIn"><img src="images/logo.jpg" alt="" /></div>
         <form id="login" action="dashboard.html" method="post">
             <div class="inputwrapper login-alert">
-                <div class="alert alert-error">Invalid username or password</div>
+                <div class="alert alert-error">Usuário ou senha inválidos</div>
             </div>
             <div class="inputwrapper animate1 bounceIn">
-                <input type="text" name="username" id="username" placeholder="Enter any username" />
+                <input type="text" name="username" id="username" placeholder="usuário" />
             </div>
             <div class="inputwrapper animate2 bounceIn">
-                <input type="password" name="password" id="password" placeholder="Enter any password" />
+                <input type="password" name="password" id="password" placeholder="senha" />
             </div>
             <div class="inputwrapper animate3 bounceIn">
-                <button name="submit">Sign In</button>
+                <button name="submit">Acessar</button>
             </div>
             <div class="inputwrapper animate4 bounceIn">
-                <label><input type="checkbox" class="remember" name="signin" /> Keep me sign in</label>
+                <label><input type="checkbox" class="remember" name="signin" />Permanecer logado</label>
             </div>
             
         </form>
@@ -55,7 +55,7 @@
 </div><!--loginpanel-->
 
 <div class="loginfooter">
-    <p>&copy; 2013. EG Consulting. Todos os direitos reservados.</p>
+    <p>&copy; 2013. EG Consulting. Todos os direitos reservados. ${data}</p>
 </div>
 
 </body>
